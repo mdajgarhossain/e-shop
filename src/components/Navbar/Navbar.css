@@ -1,0 +1,10 @@
+.nav-item {
+  margin-left: 25px;
+  font-size: 20px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.custom-border {
+  border-right: 3px solid darkgray;
+}
