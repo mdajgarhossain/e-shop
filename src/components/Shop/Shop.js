@@ -7,7 +7,7 @@ import MoreProducts from "../MoreProducts/MoreProducts";
 
 function Shop() {
   return (
-    <div className="shop">
+    <div id="shop">
       <h1>Your e-shop</h1>
       <Products />
       <FeaturedProducts />

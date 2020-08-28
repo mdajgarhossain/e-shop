@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -11,9 +12,9 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand font-weight-bold text-secondary" href="#">
+        <Link className="navbar-brand font-weight-bold text-secondary" to="/">
           e-shop
-        </a>
+        </Link>
         <form className="form-inline my-2 my-lg-0">
           <input
             className="form-control mr-sm-2"
@@ -46,21 +47,27 @@ function Navbar() {
           id="navbarToggler"
         >
           <div className="navbar-nav">
-            <a className="nav-item nav-link text-dark custom-border" href="#">
+            <Link className="nav-item nav-link text-dark custom-border" to="/">
               Home
-            </a>
-            <a className="nav-item nav-link text-dark custom-border" href="#">
+            </Link>
+            <a
+              className="nav-item nav-link text-dark custom-border"
+              href="#about"
+            >
               About
             </a>
-            <a className="nav-item nav-link text-dark custom-border" href="#">
+            <a
+              className="nav-item nav-link text-dark custom-border"
+              href="#shop"
+            >
               Shop
             </a>
-            <a className="nav-item nav-link text-dark" href="#">
+            <Link className="nav-item nav-link text-dark" to="/help">
               Help
-            </a>
-            <a className="nav-item nav-link bg-dark text-white" href="#">
+            </Link>
+            <Link className="nav-item nav-link bg-dark text-white" to="/cart">
               <FontAwesomeIcon icon={faCartPlus} /> Your Cart
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
