@@ -8,6 +8,10 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Cart from "./components/Cart/Cart";
 import Help from "./components/Help/Help";
+import Products from "./components/Products/Products";
+import FeaturedProducts from "./components/FeaturedProducts/FeaturedProducts";
+import Newsletter from "./components/Newsletter/Newsletter";
+import MoreProducts from "./components/MoreProducts/MoreProducts";
 
 function App() {
   return (
@@ -16,18 +20,26 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Navbar />
-            <Shop />
+            <Products />
+            <FeaturedProducts />
+            <Newsletter />
+            <MoreProducts />
             <About />
             <Footer />
           </Route>
-          <Route path="/cart">
+          <Route path="/shop">
             <Navbar />
-            <Cart />
+            <Shop />
             <Footer />
           </Route>
           <Route path="/help">
             <Navbar />
             <Help />
+            <Footer />
+          </Route>
+          <Route path="/cart">
+            <Navbar />
+            <Cart />
             <Footer />
           </Route>
         </Switch>

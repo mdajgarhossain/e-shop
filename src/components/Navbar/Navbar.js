@@ -56,12 +56,12 @@ function Navbar() {
             >
               About
             </a>
-            <a
+            <Link
               className="nav-item nav-link text-dark custom-border"
-              href="#shop"
+              to="/shop"
             >
               Shop
-            </a>
+            </Link>
             <Link className="nav-item nav-link text-dark" to="/help">
               Help
             </Link>
