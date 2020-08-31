@@ -11,9 +11,9 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand font-weight-bold text-secondary" to="/">
-          e-shop
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+        <Link className="navbar-brand font-weight-bold" to="/">
+          𝕖-𝕤𝕙𝕠𝕡
         </Link>
         <form className="form-inline my-2 my-lg-0">
           <input
@@ -22,7 +22,7 @@ function Navbar() {
             placeholder="Search"
           />
           <button
-            className="btn btn-outline-secondary my-2 my-sm-0"
+            className="btn btn-outline-secondary text-white my-2 my-sm-0"
             type="submit"
           >
             Search
@@ -47,25 +47,25 @@ function Navbar() {
           id="navbarToggler"
         >
           <div className="navbar-nav">
-            <Link className="nav-item nav-link text-dark custom-border" to="/">
+            <Link className="nav-item nav-link text-white custom-border" to="/">
               Home
             </Link>
-            <a
-              className="nav-item nav-link text-dark custom-border"
-              href="#about"
+            <Link
+              className="nav-item nav-link text-white custom-border"
+              to="/about"
             >
               About
-            </a>
+            </Link>
             <Link
-              className="nav-item nav-link text-dark custom-border"
+              className="nav-item nav-link text-white custom-border"
               to="/shop"
             >
               Shop
             </Link>
-            <Link className="nav-item nav-link text-dark" to="/help">
+            <Link className="nav-item nav-link text-white" to="/help">
               Help
             </Link>
-            <Link className="nav-item nav-link bg-dark text-white" to="/cart">
+            <Link className="nav-item nav-link bg-white text-dark" to="/cart">
               <FontAwesomeIcon icon={faCartPlus} /> Your Cart
             </Link>
           </div>
