@@ -12,6 +12,7 @@ import Products from "./components/Products/Products";
 import FeaturedProducts from "./components/FeaturedProducts/FeaturedProducts";
 import Newsletter from "./components/Newsletter/Newsletter";
 import MoreProducts from "./components/MoreProducts/MoreProducts";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
@@ -20,10 +21,14 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Navbar />
-            <Products />
+            <Banner />
             <FeaturedProducts />
             <Newsletter />
             <MoreProducts />
+            <Footer />
+          </Route>
+          <Route path="/about">
+            <Navbar />
             <About />
             <Footer />
           </Route>

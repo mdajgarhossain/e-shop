@@ -1,0 +1,11 @@
+.banner {
+  background: #fcf5e6;
+}
+.shop-now-btn {
+  background-color: #f44336;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 40px;
+}
