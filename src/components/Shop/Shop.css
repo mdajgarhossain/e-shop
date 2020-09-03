@@ -1,3 +1,30 @@
-#shop {
-  height: 500px;
+.shop hr {
+  width: 200px;
+}
+
+.category-navbar {
+  font-size: 20px;
+}
+
+.category-navbar a {
+  margin: 0 10px;
+  color: black;
+}
+
+.category-navbar a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+footer a {
+  font-size: 23px;
+  margin: 0 15px;
+  color: black;
+}
+
+footer a:hover {
+  color: black;
+}
+footer p {
+  font-size: 18px;
 }
