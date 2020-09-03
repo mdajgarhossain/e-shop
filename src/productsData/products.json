@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "category": "laptop",
+    "image": "https://i.ibb.co/27XfWcK/product-3.png",
+    "title": "Asus Laptop",
+    "shortDescription": "Latest products in the market",
+    "price": 449.99
+  },
+  {
+    "id": 2,
+    "category": "laptop",
+    "image": "https://i.ibb.co/ns6Nfpy/product-1.png",
+    "title": "Hp Laptop",
+    "shortDescription": "Latest products in the market",
+    "price": 715.5
+  },
+  {
+    "id": 3,
+    "category": "laptop",
+    "image": "https://i.ibb.co/7YQQbQ0/product-2.png",
+    "title": "Mackbook",
+    "shortDescription": "Latest products in the market",
+    "price": 612.99
+  },
+  {
+    "id": 4,
+    "category": "laptop",
+    "image": "https://i.ibb.co/7YQQbQ0/product-2.png",
+    "title": "Macbook Pro",
+    "shortDescription": "Latest products in the market",
+    "price": 465.5
+  },
+  {
+    "id": 5,
+    "category": "laptop",
+    "image": "https://i.ibb.co/27XfWcK/product-3.png",
+    "title": "Hp Laptop",
+    "shortDescription": "Latest products in the market",
+    "price": 715.5
+  },
+  {
+    "id": 6,
+    "category": "laptop",
+    "image": "https://i.ibb.co/ns6Nfpy/product-1.png",
+    "title": "Mackbook",
+    "shortDescription": "Latest products in the market",
+    "price": 612.99
+  },
+  {
+    "id": 7,
+    "category": "mobile",
+    "image": "https://i.ibb.co/MhZh9Cg/phone-1.png",
+    "title": "Redmi Note 8",
+    "shortDescription": "Latest products in the market",
+    "price": 112.99
+  },
+  {
+    "id": 8,
+    "category": "mobile",
+    "image": "https://i.ibb.co/xDwg5RJ/phone-2.png",
+    "title": "Xaomi 9 Plus",
+    "shortDescription": "Latest products in the market",
+    "price": 316.99
+  },
+  {
+    "id": 9,
+    "category": "mobile",
+    "image": "https://i.ibb.co/hYGKHT4/phone-3.png",
+    "title": "Iphone 12 Pro",
+    "shortDescription": "Latest products in the market",
+    "price": 210.99
+  },
+  {
+    "id": 10,
+    "category": "mobile",
+    "image": "https://i.ibb.co/xDwg5RJ/phone-2.png",
+    "title": "Xaomi 9 Plus",
+    "shortDescription": "Latest products in the market",
+    "price": 316.99
+  },
+  {
+    "id": 11,
+    "category": "mobile",
+    "image": "https://i.ibb.co/hYGKHT4/phone-3.png",
+    "title": "Iphone 12 Pro",
+    "shortDescription": "Latest products in the market",
+    "price": 210.99
+  },
+  {
+    "id": 12,
+    "category": "mobile",
+    "image": "https://i.ibb.co/MhZh9Cg/phone-1.png",
+    "title": "Redmi Note 8",
+    "shortDescription": "Latest products in the market",
+    "price": 112.99
+  },
+  {
+    "id": 13,
+    "category": "bag",
+    "image": "https://i.ibb.co/x7xXSqC/bag-1.png",
+    "title": "School bag",
+    "shortDescription": "Latest products in the market",
+    "price": 79.99
+  },
+  {
+    "id": 14,
+    "category": "bag",
+    "image": "https://i.ibb.co/0c3MrZK/bag-2.png",
+    "title": "Travel bag",
+    "shortDescription": "Latest products in the market",
+    "price": 89.99
+  },
+  {
+    "id": 15,
+    "category": "bag",
+    "image": "https://i.ibb.co/Jk4zWcM/bag-3.png",
+    "title": "Smart bag",
+    "shortDescription": "Latest products in the market",
+    "price": 110.99
+  },
+  {
+    "id": 16,
+    "category": "bag",
+    "image": "https://i.ibb.co/0c3MrZK/bag-2.png",
+    "title": "Travel bag",
+    "shortDescription": "Latest products in the market",
+    "price": 89.99
+  },
+  {
+    "id": 17,
+    "category": "bag",
+    "image": "https://i.ibb.co/Jk4zWcM/bag-3.png",
+    "title": "Smart bag",
+    "shortDescription": "Latest products in the market",
+    "price": 110.99
+  },
+  {
+    "id": 18,
+    "category": "bag",
+    "image": "https://i.ibb.co/x7xXSqC/bag-1.png",
+    "title": "School bag",
+    "shortDescription": "Latest products in the market",
+    "price": 79.99
+  }
+]
